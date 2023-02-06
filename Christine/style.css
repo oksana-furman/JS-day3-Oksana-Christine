@@ -18,6 +18,15 @@ body, html {
   text-align: center;
 }
 
+.neutral {
+  background-color: grey;
+}
+
+.orange {
+  background-color: orange;
+  width: 33%;
+}
+
 p {
   padding: 2rem;
   font-size: 2rem;
