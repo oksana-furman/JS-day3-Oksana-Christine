@@ -41,7 +41,7 @@ let avr = 0;
 for (let i = 0; i < points.length; i++) {
     sum += points[i];
     avr = sum / points.length;
-    console.log(sum, avr);
+    // console.log(sum, avr);
 }
 
 if (avr < 60) {
@@ -85,4 +85,22 @@ for (let i = 1; i <= 100; i++) {
     } else {
         document.getElementById("p3").innerHTML += i + "<br>";
     }
+}
+
+// intermediate exercise 3
+
+// var i = 1;
+// var msg = "";
+// while (i < 10) {
+//     msg += i + " x 5 = " + (i * 5) + "<br/>";
+//     i++;
+//     console.log(msg);
+// }
+
+var i = "1";
+var result = "";
+while (i < 7) {
+    result += i;
+    i++;
+    console.log(result);
 }
