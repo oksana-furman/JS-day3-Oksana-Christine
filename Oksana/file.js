@@ -88,19 +88,30 @@ for (let i = 1; i <= 100; i++) {
 }
 
 // intermediate exercise 3
-
-// var i = 1;
-// var msg = "";
-// while (i < 10) {
-//     msg += i + " x 5 = " + (i * 5) + "<br/>";
-//     i++;
-//     console.log(msg);
-// }
-
 var i = "1";
 var result = "";
 while (i < 7) {
     result += i;
     i++;
     console.log(result);
+    document.getElementsByTagName("p")[3].innerHTML += result + "<br>";
 }
+
+// challenge exercise
+let student = ["John", "Jane", "Bill", "Tim", "Emma"];
+let mathGrades = [70, 85, 55, 65, 100];
+let result = prompt("Please enter your name:", "Name");
+let studentName = result;
+if (studentName = student[i]) {
+    document.getElementsByTagName("p")[2].innerHTML = `${student[i]} has reached ${mathGrade[i]} points in Math this season.`;
+}
+
+// if (mathGrades[i] < 60) {
+//     document.getElementsByTagName("p")[2].style.color = "red";
+// } else if (mathGrades[i] >= 60 && mathGrades[i] <= 70) {
+//     document.getElementsByTagName("p")[2].style.color = "yellow";
+// } else if (mathGrades[i] > 70 && mathGrades[i] < 100) {
+//     document.getElementsByTagName("p")[2].style.color = "green";
+// } else if (mathGrades[i] = 100) {
+//     document.getElementsByTagName("p")[2].style.color = "blue";
+// }
