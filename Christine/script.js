@@ -80,7 +80,7 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
-// Stars from the Loop (my own try)
+/* Stars from the Loop (my own try)
 
 let star = "";
 
@@ -89,29 +89,30 @@ for (let i = 0; i < 6; i++) {
   console.log("*" * i); //NaN 
   document.getElementById("stars").innerHTML = star += "*" + "<br>"; // only next to each other or underneath with break - how to do it in the browser?
 }
+*/
 
 
-// Stars from Thomas
+/* Stars from Thomas
 
 let stars = "";
 do {
     stars += "*";
     console.log(stars);
 } while (stars != "******"); //shows it in console under each other - how to do it in browser?
+*/
 
-//From Oksana with numbers:
 
-var i = "1";
-var result = "";
-while (i < 7) {
-    result += i;
-    i++;
-    console.log(result);
-    document.getElementById("stars").innerHTML += result + "<br>";
+//Stars from Julius and Dita
+
+var stern = "";
+
+for (let i = 0; i < 6; i++) {
+  stern += "*";
+  document.write(stern + "<br>");
 }
 
 
-// Challenge from Thomas
+/* Challenge from Thomas
 
 
 
@@ -140,3 +141,4 @@ function getGrade(score) {
         return `<span style=\"color: blue;\">${score}</span>`;
 
 }
+*/
